@@ -316,4 +316,53 @@ li {
     
   }
 }
-
+/* 
+<style> */
+        body {
+            background: url('https://naujienos.vu.lt/wp-content/uploads/2023/11/VU-MIF-robotai-2-1536x1024.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+        }
+        h1 {
+            background: linear-gradient(to right, green, rgb(212, 88, 26), gold, rgb(67, 67, 174), red, yellow, rgb(182, 8, 188));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .task-input {
+            display: flex;
+            align-items: center;
+        }
+        .task-input input {
+            flex-grow: 1;
+            margin-left: 10px;
+            padding: 10px;
+        }
+        .task-box {
+            list-style: none;
+            padding: 0;
+        }
+        .task-box li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .delete-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .completed {
+            text-decoration: line-through;
+            color:blue;
+        }
+    
